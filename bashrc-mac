@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# .bashrc custom for MAC - Stas Goshtein
+#
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1="\[\033[38;5;44m\]\u\[$(tput sgr0)\]\[\033[38;5;42m\]@\[$(tput sgr0)\]\[\033[38;5;39m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \W \\$\[$(tput sgr0)\] "
